@@ -1,0 +1,60 @@
+$background-toolbar: #333;
+$background-footer: #333;
+$color-toolbar: #fff;
+$color-footer: #fff;
+$color-page: #fff;
+
+a {
+  text-decoration: none;
+  color: $color-footer;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-toolbar;
+  color: $color-toolbar;
+}
+
+.page {
+  color: $color-page;
+  &__grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 15%;
+
+    @media (max-width: 768px) {
+      display: initial;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      margin: 1rem;
+    }
+
+  }
+}
+
+.footer {
+  background-color: $background-footer;
+  text-align: center;
+  color: $color-footer;
+  width: 100%;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 0;
+
+  a:hover {
+    color: #888;
+  }
+}
