@@ -18,7 +18,8 @@ LOGIN='Preencha o login aqui...'
 SENHA='Preencha a senha aqui...'
 
 # Diretório de destino dos arquivo baixados no scraping
-PATH_RELATORIO='/dados/arquivos_a_processar/trf/trf2' ```
+PATH_RELATORIO='/dados/arquivos_a_processar/trf/trf2'
+```
 
 ## Execução manual do projeto
 
