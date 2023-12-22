@@ -4,7 +4,8 @@ Para configurar o projeto no servidor, deve-se criar o arquivo .env no diretóri
 
 Copie as váriaveis de ambiente abaixo, cole no arquivo .env criado e salve.
 
-``` Endpoint Eproc ES
+```
+# Endpoint Eproc ES
 ENDPOINT_JFES='https://eproc-ws.jfes.jus.br/eproc'
 
 # Endpoint Eproc RJ
