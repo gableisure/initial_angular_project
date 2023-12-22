@@ -17,7 +17,7 @@ LOGIN='Preencha o login aqui...'
 # Senha Eproc
 SENHA='Preencha a senha aqui...'
 
-# Diretório de destino dos arquivo baixados no scraping
+# Diretório de destino dos arquivos baixados no scraping
 PATH_RELATORIO='/dados/arquivos_a_processar/trf/trf2'
 ```
 
